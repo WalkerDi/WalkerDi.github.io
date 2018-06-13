@@ -12,7 +12,6 @@ tags:  CodeIgniter PHP Linux
 
 ```
 crontab –e
-
 ```
 ## 每分钟执行控制器中的方法
 

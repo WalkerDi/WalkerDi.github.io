@@ -27,6 +27,7 @@ crontab –e
 ```
 service crond restar
 ```
+重启定时任务，使其生效
 
 ## 查看任务执行情况
 

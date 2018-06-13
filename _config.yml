@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 狄川军的技术专栏
+title: WalkerDi的技术专栏
 brief-intro: PHP and SQL Coder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://WalkerDi.github.io" # the base hostname & protocol for your site

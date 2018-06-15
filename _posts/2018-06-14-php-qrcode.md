@@ -18,7 +18,6 @@ tags:  CodeIgniter phpqrcode
 
     /**
      * 生成二维码
-     * phpqrcode类文件下载
      * @param string $url 二维码内容
      * @return string
      */

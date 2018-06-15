@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PHP生成二维码"
-categories: 二维码
-tags:  CodeIgniter PHP 
+categories: phpqrcode
+tags:  CodeIgniter phpqrcode 
 ---
 
 * content

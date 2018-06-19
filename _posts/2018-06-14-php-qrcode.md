@@ -14,7 +14,11 @@ tags:  CodeIgniter phpqrcode
 
 具体示例代码如下：
 
-```
+
+
+
+
+```php
 <?php
     /**
      * 生成二维码
@@ -69,5 +73,4 @@ tags:  CodeIgniter phpqrcode
         return $data;
     
     }
- ?>
 ```

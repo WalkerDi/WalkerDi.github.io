@@ -14,7 +14,10 @@ tags:  CodeIgniter wechat
 
 具体代码如下：
 
-```
+
+
+
+```php
    <?php
    
    class Wxjs {

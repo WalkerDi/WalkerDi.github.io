@@ -11,7 +11,7 @@ tags:  CodeIgniter PHP Linux
 ## 编辑定时任务
 
 ```
-crontab –e
+crontab -e
 ```
 ## 每分钟执行控制器中的方法
 
@@ -25,7 +25,7 @@ crontab –e
 ## 重启crond 服务
 
 ```
-service crond restar
+service crond restart
 ```
 重启定时任务，使其生效
 

@@ -14,14 +14,14 @@ tags:  Linux Nginx Msql PHP
 killall php-fpm  //php 关闭命令
 /alidata/server/php-5.6.23/sbin/php-fpm //php启动命令
 ```
-## Mysql服务重启
+## Nginx服务重启
 
 ```
 /alidata/server/nginx-1.8.1/sbin/nginx -t  //启动nginx,并检测是否有语法错误
 /alidata/server/nginx-1.8.1/sbin/nginx -s reload //重新加载配置，使修改生效
 ```
 
-## 重启crond 服务
+## Mysql服务重启
 
 ```
 service mysqld restart //使用 service 启动

@@ -19,7 +19,6 @@ tags:  CodeIgniter phpqrcode
 
 
 ```php
-<?php
     /**
      * 生成二维码
      * @param string $url 二维码内容

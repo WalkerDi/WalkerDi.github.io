@@ -18,8 +18,6 @@ tags:  CodeIgniter wechat
 
 
 ```php
-   <?php
-   
    class Wxjs {
      private $appId; //公众号appid
      private $appSecret; //公众号appSecret

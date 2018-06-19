@@ -55,3 +55,5 @@ tags:  Linux
 ## 磁盘挂载
 
 使用命令`mount /dev/vadb1 /alidata`，是将数据盘`/dev/vdb1`挂载到`/alidata`目录下。
+
+参考地址：[https://help.aliyun.com/document_detail/25426.html?spm=5176.11065259.1996646101.searchclickresult.26a41cef792ya8](https://help.aliyun.com/document_detail/25426.html?spm=5176.11065259.1996646101.searchclickresult.26a41cef792ya8)

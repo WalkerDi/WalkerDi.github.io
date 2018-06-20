@@ -14,6 +14,10 @@ tags:  微信 网页授权
 
 示例代码如下：
 
+
+
+
+
 ```php
 
 **
@@ -41,11 +45,6 @@ class Weixin
         self::$redirect_uri = urlencode("http://".$_SERVER['HTTP_HOST']."/api/user/weixin_login");
       
     }
-    
-    
-    
-    
-    
     
 
 /**

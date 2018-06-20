@@ -12,6 +12,12 @@ tags:  微信 微信模板消息
 
 示例代码如下：
 
+
+
+
+
+
+
 ```php
 <?php
 /**
@@ -44,10 +50,6 @@ class Wxtemplate
             1=>'bHGu8vVBa_ccc4465-UrgSdzYt16UCvEatIjjDI',
             2=>'aHJTGUTdi4C9HSfiKf4cS2pNoIpS-123456-Gm8',
         ];
-        
-        
-        
-        
         
         
         if(empty($url)){

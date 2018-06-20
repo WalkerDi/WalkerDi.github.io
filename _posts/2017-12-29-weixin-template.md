@@ -10,6 +10,8 @@ tags:  微信 微信模板消息
 
 本文讲解如何发送微信模板消息，以Ci框架为例进行说明，其中获取统一微信授权token`access_token()`方法，统一使用`微信分享获取签名`[https://walkerdi.github.io/2018/05/02/weixin-share/](https://walkerdi.github.io/2018/05/02/weixin-share/),讲解到方法。
 
+参考地址：[https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1433751277](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1433751277)
+
 示例代码如下：
 
 

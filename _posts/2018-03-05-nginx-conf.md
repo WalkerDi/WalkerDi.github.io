@@ -8,7 +8,7 @@ tags:  Nginx
 * content
 {:toc}
 
-这里记录Nginx主机一般配置，具体的配置要根据实际项目做相应的配置，这里及供参数。
+这里记录Nginx主机一般配置，具体的配置要根据实际项目做相应的配置，这里仅供参数。
 
 ## 主配置文件nginx.conf
 
@@ -167,6 +167,5 @@ server {
 	#access_log /tmp/web.tttaoche.com.access.conf;
 	error_log /tmp/web.tttaoche.com.conf;
     }
-
 
 ```

@@ -14,7 +14,7 @@ tags:  Nginx
 
 配置所在目录`/alidata/server/nginx-1.8.1/conf/nginx.conf`
 
-```angular2html
+```php
 user  www www;
 #根据服务器核数决定，几核就写几 
 worker_processes  4; 
@@ -98,7 +98,7 @@ http {
  
 配置文件所在目录`/alidata/server/nginx-1.8.1/conf/conf.d/vhost.pms.ibearcar.com`
 
-```angular2html
+```php
 server {
         listen       80;
         server_name  pms.ibearcar.com;
@@ -131,7 +131,7 @@ server {
 
 配置文件所在目录`/alidata/server/nginx-1.8.1/conf/conf.d/vhost.web.tttaoche.com.com`
 
-```angular2html
+```php
 
 server {
         listen       80;

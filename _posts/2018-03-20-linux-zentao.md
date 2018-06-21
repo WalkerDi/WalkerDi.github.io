@@ -18,8 +18,9 @@ tags:  Linux 禅道
 
 ## 搭建步骤
 
-1.创建一个存放禅道的数据目录：mkdir /alidata/www/zentao
-2.解压安装包： unzip ZenTaoPMS.9.8.3.zip -d /alidata/www/zentao/ 解压后的目录：
+1.创建一个存放禅道的数据目录：`mkdir /alidata/www/zentao`
+
+2.解压安装包： `unzip ZenTaoPMS.9.8.3.zip -d /alidata/www/zentao/` 解压后的目录：
 
 ```
 bin  config  db  doc  framework  lib  module  tmp  VERSION  www

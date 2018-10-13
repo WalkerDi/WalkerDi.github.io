@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PHP 如何设置一个严格控制过期时间的session"
-categories: MySQL 
-tags:  MySQL 数据库
+categories: PHP session 
+tags:  session 
 ---
 
 * content
@@ -69,11 +69,6 @@ class Session{
     }
 	
 }
-
-
-
-
-
 ```
 
 

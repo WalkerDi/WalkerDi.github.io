@@ -16,7 +16,7 @@ tags:  MySQL 数据库
 
 
 
-```php
+```sql
 DELETE
 FROM
 	ltb_user

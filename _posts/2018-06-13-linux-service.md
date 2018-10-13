@@ -2,7 +2,7 @@
 layout: post
 title:  "lnmp 环境中相关服务启动命令"
 categories: lnmp
-tags:  Linux Nginx Msql PHP  
+tags:  Linux Nginx MySQL PHP  
 ---
 
 * content

@@ -14,6 +14,10 @@ tags:  session
 
 PHP的session有效期默认是1440秒(24分钟),如果客户端超过24分钟没有刷新，当前session会被回,失效。当用户关闭浏览器，会话结束，session也会失效。可以修改php.ini的session.gc_maxlifetime来设置session的生命周期，但并不能保证在超过这一时间后session信息立即会删除。因为GC是按机率启动的，可能在某一个长时间内都没有被启动。那么大量的session在超过session.gc_maxlifetime后仍然有效。
 
+
+
+
+
 2.session.gc_maxlifetime,session.gc_probability,session.gc_divisor说明
 
 session.gc_maxlifetime=30表示当session文件在30秒后没有被访问，则视为过期session，等待GC回收。GC进程调用的概率是通过session.gc_probability/session.gc_divisor计算得来的，而session.gc_divisor默认是1000，如果session.gc_probability = 1000那么GC进程在每次执行session_start()时都会调用，执行回收。把session.gc_probability/session.gc_divisor的机率提高，会有帮助，但会对性能造成严重影响。

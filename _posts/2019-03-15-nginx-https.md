@@ -25,8 +25,8 @@ server {
 
         #配置证书段，证书放在/alidata/server/nginx/cert安装目录的sslkey目录下	
         ssl on;
-        ssl_certificate /alidata/server/nginx/cert/apitest.dudubashi.com.pem; //下载申请后阿里ssh提供的pem
-        ssl_certificate_key /alidata/server/nginx/cert/apitest.dudubashi.com.key; /下载申请后阿里ssh提供的key
+        ssl_certificate /alidata/server/nginx/cert/apitest.dudubashi.com.pem; #下载申请后阿里ssh提供的pem
+        ssl_certificate_key /alidata/server/nginx/cert/apitest.dudubashi.com.key; #下载申请后阿里ssh提供的key
         ssl_session_timeout 5m;
         ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
         ssl_protocols TLSv1 TLSv1.1 TLSv1.2;

@@ -10,7 +10,7 @@ tags:  Nginx
 
 ## Nginx+ssl配置http和https共存
 
-nginx 支持https 访问，前提是要开启nginx的ssl模块，若没有安装则需要重新编译，编译安装时带上--with-http_ssl_module配置就可以了，另外证书在阿里云里申请免费Https证书SSL，在阿里云控制台：安全（云盾）->证书服务->购买证书里（地址：[https://common-buy.aliyun.com/?spm=5176.2020520163.cas.1.zTLyhO&commodityCode=cas#/buy](https://common-buy.aliyun.com/?spm=5176.2020520163.cas.1.zTLyhO&commodityCode=cas#/buy)）  选择免费的证书类型完成购买即可。
+nginx 支持https 访问，前提是要开启nginx的ssl模块，若没有安装则需要重新编译，编译安装时带上--with-http_ssl_module配置就可以了，另外证书在阿里云里申请免费Https证书SSL，在阿里云控制台：产品->安全->SSL证书（地址：[https://www.aliyun.com/product/cas?spm=5176.7968328.1280361.172.43031232FbNLsT](https://www.aliyun.com/product/cas?spm=5176.7968328.1280361.172.43031232FbNLsT)）  选择免费的证书类型完成购买即可。
 
 
 

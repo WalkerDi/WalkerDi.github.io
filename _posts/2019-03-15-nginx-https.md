@@ -23,7 +23,7 @@ server {
         server_name  apitest.dudubashi.com; #站点域名
         root    /alidata/www/apitest.dudubashi.com;#站点根目录
 
-        #配置证书段，证书放在/alidata/server/nginx/cert安装目录的sslkey目录下	
+        #配置证书段，证书放在/alidata/server/nginx/cert目录	
         ssl on;
         ssl_certificate /alidata/server/nginx/cert/apitest.dudubashi.com.pem; #下载申请后阿里ssh提供的pem
         ssl_certificate_key /alidata/server/nginx/cert/apitest.dudubashi.com.key; #下载申请后阿里ssh提供的key
@@ -65,5 +65,6 @@ server {
 参考地址：
 
 [https://www.cnblogs.com/jingxiaoniu/p/6745254.html](https://www.cnblogs.com/jingxiaoniu/p/6745254.html)
+
 [https://www.cnblogs.com/lxf1117/p/6650647.html](https://www.cnblogs.com/lxf1117/p/6650647.html)
 

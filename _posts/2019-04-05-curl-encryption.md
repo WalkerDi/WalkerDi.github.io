@@ -95,3 +95,5 @@ $encodeStr = authcode($str, 'ENCODE', 'abc@#$123');
 
 echo "加密: ".$encodeStr."\n";
 echo "解密: ".authcode($encodeStr, 'DECODE', 'abc@#$123');
+
+```

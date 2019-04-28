@@ -12,6 +12,10 @@ tags:  加密解密
 
 在web 应用开发中，我们通常会对一些敏感参数进行加密，来提高安全性，这里提供了一种在curl 中加密和解密的实现方案，可以自定义密匙和有效期。具体实现代码如下：
 
+
+
+
+
 ```php
 
 /**
@@ -22,12 +26,6 @@ tags:  加密解密
  * @param string $key 密匙
  * @param int $expiry 密文有效期
  */
-
-
-
-
-
-
 
 function authcode($string, $operation = 'DECODE', $key = '', $expiry = 0) {
     // 动态密匙长度，相同的明文会生成不同密文就是依靠动态密匙

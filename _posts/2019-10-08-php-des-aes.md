@@ -38,10 +38,6 @@ tags:  PHP
  * 支持模式：CBC/ECB/OFB/CFB 
  * 密文编码：base64字符串/十六进制字符串/二进制字符串流 
  * 填充方式: PKCS5Padding（DES） 
- * 
- * @author: linvo 
- * @version: 1.0.0 
- * @date: 2013/1/10 
  */ 
 class Xcrypt{  
    

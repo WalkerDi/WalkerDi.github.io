@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "对称加密算法(DES/AES)加解密详解"
+title:  "PHP对称加密算法(DES/AES)加解密详解"
 categories: PHP
 tags:  PHP
 ---
